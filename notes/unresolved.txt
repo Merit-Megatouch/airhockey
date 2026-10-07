@@ -1,0 +1,21 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+LinkedWithCnt | airhockey.so
+WhoWeArePlaying | airhockey.so
+GetPackets(char*, int) | airhockey.so
+BitmapTextTTF(_RADBitmap*, char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | airhockey.so
+ClearAPreWave(char*) | airhockey.so
+SendPilePacket(char*, int) | airhockey.so
+InFormOfIDUsage(unsigned char, unsigned char) | airhockey.so
+ProcessRTPackets() | airhockey.so
+MeritthonDisplayRound(int, int, int, unsigned long) | airhockey.so
+MouseX() | airhockey.so
+MouseY() | airhockey.so
+GetMyId() | airhockey.so
+GetMaster() | airhockey.so
+Translator::nTranslate(char*, unsigned int, char const*) | airhockey.so
+blit | airhockey.so
+mouse_b | airhockey.so
+screen | airhockey.so
