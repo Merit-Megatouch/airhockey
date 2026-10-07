@@ -1,6 +1,6 @@
 # AIR SHOT (airhockey)
 
-Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
+Status: runs (legacy engine, smoke-tested 2026-10-07). Plays: opponent select and a full match with scoring.
 
 ## Checklist
 - [ ] Window size in game.conf matches the largest PNG (notes/scaffold.md)
@@ -15,3 +15,5 @@ Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Log
 <!-- dated notes: what broke, what fixed it -->
+
+- 2026-10-07 — runs on src/legacy with no stubs; Plays: opponent select, a full match with scoring (mouse polled via MouseX/Y).
